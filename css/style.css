@@ -23,6 +23,14 @@ nav,
     border: 2px dotted black;
 }
 
+.odd{
+    background-color: white;
+}
+
+.even{
+    background-color: lightgrey;
+}
+
 /* HEADER TOP */
 .header-top{
     display: flex;
@@ -70,7 +78,7 @@ nav{
 
     /* TEST */
     background-color: darkblue;
-    height: 450px;
+    height: 600px;
 }
 
 .jumbotron-content{
@@ -82,3 +90,47 @@ nav{
     width: 50%;
 }
 
+/* CORPO PAGINA */
+main section{
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-blue{
+    height: 80%;
+    border: 2px dotted black;
+    
+
+    /* TEST */
+    background-color: #1e90ff ;
+    width: 40%;
+}
+
+.bloc-pink{
+    height: 80%;
+    border: 2px dotted black;
+    
+
+    /* TEST */
+    background-color: pink ;
+    width: 30%;
+}
+
+.last{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloc-green{
+    height: 90%;
+    border: 2px dotted black;
+    
+
+    /* TEST */
+    background-color: green ;
+    width: 70%
+}
