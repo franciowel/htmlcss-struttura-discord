@@ -134,3 +134,43 @@ main section{
     background-color: green ;
     width: 70%
 }
+
+/* TOP-PART FOOTER */
+.footer-top{
+    display: flex;
+    justify-content: center;
+    padding: 20px 15px;
+
+    /* TEST */
+    background-color: #23272a;
+    height: 600px;
+}
+
+.col-pink{
+    height: 95%;
+    border: 2px dotted black;
+
+    /* TEST */
+    background-color: palevioletred ;
+    width: 19%;
+}
+
+.col{
+    height: 95%;
+    border: 2px dotted black;
+
+    /* TEST */
+    background-color: cornflowerblue;
+    width: 13%
+}
+
+
+/* BOTTOM-PART FOOTER */
+.footer-bottom{
+    display: flex;
+
+    /* TEST */
+    background-color: #23272a;
+    height: 100px;
+}
+
