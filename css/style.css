@@ -6,3 +6,79 @@
 }
 
 /* COMMON */
+
+header{
+    margin-bottom: 10px;
+}
+
+.nav-bar a{
+    color: black;
+    text-decoration: none;
+}
+
+.logo,
+nav,
+.login{
+    background-color: goldenrod;
+    border: 2px dotted black;
+}
+
+/* HEADER TOP */
+.header-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+    /* TEST */
+    background-color: lightblue;
+    height: 80px;
+}
+
+.nav-bar{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-bar li{
+    padding: 2px 15px;
+}
+
+nav{
+    width: 40%;
+}
+
+.logo{
+    width: 10%;
+    text-align: left;
+    padding: 2px 4px;
+}
+
+.login{
+    width: 10%;
+    text-align: right;
+    padding: 2px 4px;
+}
+
+/* HEADER BOTTOM */
+.header-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* TEST */
+    background-color: darkblue;
+    height: 450px;
+}
+
+.jumbotron-content{
+    border: 2px dotted black;
+
+    /* TEST */
+    background-color: violet;
+    height: 70%;
+    width: 50%;
+}
+
